@@ -26,10 +26,10 @@ Summary:	'Good' plugins for the Moovida media center
 Name:		moovida-plugins-good
 Version:	1.0.1
 Release:	%{release}
-Source0:	http://elisa.fluendo.com/static/download/elisa/%{distname}
+Source0:	http://www.moovida.com/media/public/%{distname}
 License:	GPLv3
 Group:		Development/Python
-URL:		http://elisa.fluendo.com/
+URL:		http://www.moovida.com/
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python
@@ -49,9 +49,9 @@ Provides:	elisa-plugins-good = %{version}-%{release}
 Obsoletes:	elisa-plugins-good < %{version}-%{release}
 
 %description
-Elisa is a project to create an open source cross platform media center 
+Moovida is a project to create an open source cross platform media center 
 solution. This package contains 'good' (well-written and legally clean)
-plugins for Elisa.
+plugins for Moovida.
 
 %prep
 %setup -q -n %{dirname}
