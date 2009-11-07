@@ -24,7 +24,7 @@
 
 Summary:	'Good' plugins for the Moovida media center
 Name:		moovida-plugins-good
-Version:	1.0.7
+Version:	1.0.8
 Release:	%{release}
 Source0:	http://www.moovida.com/media/public/%{distname}
 License:	GPLv3
